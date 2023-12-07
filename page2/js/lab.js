@@ -1,6 +1,8 @@
 // By Leilah Hodges
 // API
 
+
+// source: Spoonacular and ChatGPT
 function searchRecipes() {
   const query = document.getElementById('query').value;
   const diet = document.getElementById('diet').value;
@@ -67,5 +69,5 @@ function searchRecipes() {
 // navigation JS
 document.getElementById('next').addEventListener('click', function() {
   // Set the new URL for the next page
-  window.location.href = 'https://leihodges.github.io/Group8Final/';
+  window.location.href = 'https://leihodges.github.io/Group8Final/index.html';
 });

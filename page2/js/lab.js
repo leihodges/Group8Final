@@ -63,3 +63,10 @@ function searchRecipes() {
           document.getElementById('results').innerHTML = 'Error fetching data';
       });
 }
+
+
+// navigation JS
+document.getElementById('next').addEventListener('click', function() {
+  // Set the new URL for the next page
+  window.location.href = 'https://leihodges.github.io/Group8Final/';
+});

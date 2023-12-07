@@ -28,9 +28,9 @@ body {
   font-weight: bold;
   padding: 5px;
   margin: 25px;
-  border: solid 2px #FE6000;
+  border: solid 2px #e10324;
   background-color: #EEB1DD;
-  color: #FE6000;
+  color: #e10324;
   border-radius: 15px;
   margin-left: 300px;
   margin-right: 300px;
@@ -39,7 +39,7 @@ body {
 h1 {
   background-color: #EEB1DD;
   border: solid 2px #EEB1DD;
-  color: #FE6000;
+  color: #e10324;
   font-size: 60px;
 }
 
@@ -61,18 +61,6 @@ input {
   border: solid 3px #FE6000;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-}
-
-button {
-  border-radius: 15px;
-  background-color:#FE6000;
-  border: solid 3px #EEB1DD;
-  color: #EEB1DD;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  font-size: larger;
-  padding: 10px;
-  cursor: pointer;
 }
 
 .minor-section {
@@ -120,4 +108,30 @@ button {
 #stickerTwoThree {
   max-width: 20%;
   margin: 20px;
+}
+
+/* navigation */
+
+#next {
+  border-radius: 10px;
+  background-color: #EEB1DD;
+  border-color: #e10324;
+  color: #e10324;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 15px;
+  background-color:#e10324;
+  border: solid 3px #EEB1DD;
+  color: #EEB1DD;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: larger;
+  padding: 10px;
+  cursor: pointer;
 }

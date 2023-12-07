@@ -12,9 +12,9 @@ body {
   font-weight: bold;
   padding: 10px;
   margin: 25px;
-  border: solid 2px #FE6000;
+  border: solid 2px #e10324;
   background-color:#EEB1DD;
-  color:#FE6000;
+  color:#e10324;
   border-radius: 15px;
   margin-left:300px;
   margin-right:300px;
@@ -23,7 +23,7 @@ body {
 h1 {
   background-color:#EEB1DD;
   border: solid 2px #EEB1DD;
-  color:#FE6000;
+  color:#e10324;
   font-size: 75px;
 
 }
@@ -101,11 +101,13 @@ body {
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
-.button-section {
+.navigation {
   display: grid;
   place-items: center;
+  text-align: center;
 }
 
 a:link {

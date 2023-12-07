@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- This title is used for tabs and bookmarks -->
+    <title>Cooking Club</title>
+    <!-- By Leilah Hodges -->
+    
+    <!-- Use UTF character set, a good idea with any webpage -->
+    <meta charset="UTF-8" />
+    <!-- Set viewport so page remains consistently scaled w narrow devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Lab-specifc CSS file for any special styling of this particular page -->
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
+    
+    <!-- load jQuery library to make javascript easier (must be above our lab js)-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Link to javascript file - DEFER waits until all elements are rendered -->
+    <script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+
+<body>
+    <body>
+
+        <div class="header">
+          <h1>Cooking Club!</h1>
+          <p>Lets sort out some basic information so we can get sorted!</p>
+        </div>
+      
+        <div class="minor-section-background">
+          <div class="minor-section">
+              <div class="grouping">
+                <h2>What time of day is it?</h2>
+                <div class="soloDecal">
+                    <img id="stickerOne" src="img/syrup.jpg" alt="pink bottle of syrup"><br>
+                </div>
+                    <form id="recipeForm">
+                      <label for="query">Query:</label>
+                      <input type="text" id="query" name="query" required="">
+              </form></div>
+      
+          
+              <div class="grouping">
+                <h2>Any dietary restrictions?</h2>
+                <div class="declas-section">
+                    <img id="stickerTwoThree" src="img/bread.jpg" alt="pink loaf of bread"><br>
+                </div>
+                        <label for="diet">Diet:</label>
+                      <input type="text" id="diet" name="diet">
+      
+                      <br><br><label for="intolerances">Intolerances:</label>
+                      <input type="text" id="intolerances" name="intolerances">
+              </div>
+      
+              <div class="grouping">
+                <h2>How much time do you have (in minutes)?</h2> 
+                <div class="declas-section">
+                    <img id="stickerTwoThree" src="img/steak.jpg" alt="pink steak"><br>     
+                </div>
+                      <label for="maxReadyTime">Max Ready Time (minutes):</label>
+                      <input type="number" id="maxReadyTime" name="maxReadyTime">
+              </div>
+      
+              <div class="navigation">
+                    <button type="button" onclick="searchRecipes()">Search Recipes</button>
+              </div>
+
+        <div class="navigation">
+            <div id="results"></div>
+        </div>
+    </div>
+</body>
+</html>

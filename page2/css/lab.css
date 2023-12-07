@@ -1,0 +1,123 @@
+/* CSS by Leilah Hodges */
+
+/* results stuff */
+.recipe {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* body stuff */
+
+body {
+  background-color: #fffef7;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 15px;
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  margin: 25px;
+  border: solid 2px #FE6000;
+  background-color: #EEB1DD;
+  color: #FE6000;
+  border-radius: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+h1 {
+  background-color: #EEB1DD;
+  border: solid 2px #EEB1DD;
+  color: #FE6000;
+  font-size: 60px;
+}
+
+h2 {
+  background-color: #EFE04B;
+  border: solid 2px #EFE04B;
+  border-radius: 15px;
+  color: #20531C;
+  font-size: 30px;
+}
+
+label {
+  color: #EEB1DD;
+}
+
+input {
+  border-radius: 15px;
+  background-color:#EEB1DD;
+  border: solid 3px #FE6000;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 15px;
+  background-color:#FE6000;
+  border: solid 3px #EEB1DD;
+  color: #EEB1DD;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: larger;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.minor-section {
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+  background-color: #20531C;
+  border: solid 2px #EFE04B;
+  border-radius: 15px;
+  font-weight: 550;
+  font-size: 25px;
+  margin-left: 175px;
+  margin-right: 175px;
+  margin-bottom: 30px;
+}
+
+.minor-section-background {
+  background-color: #F2EFEA;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.grouping {
+  border-radius: 10px;
+  outline: solid 3px #EFE04B;
+  padding: 10px;
+  margin: 50px 100px;
+}
+
+/* image css */
+
+#decals-section {
+  display: flex;
+  justify-content: center;
+}
+
+#stickerOne {
+  max-width: 15%;
+  margin: 20px;
+}
+
+#stickerTwoThree {
+  max-width: 20%;
+  margin: 20px;
+}

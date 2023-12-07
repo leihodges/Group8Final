@@ -40,9 +40,8 @@ function searchRecipes() {
                       if (recipeWithInstructions) {
                           const html = `
                               <div class="recipe">
-                                  <h2>Result:</h2>
                                   <h3>${recipeWithInstructions.title}</h3>
-                                  <p>ID: ${recipeWithInstructions.id}</p>
+                                  <h5>"Yes,Chef!"</h5>
                                   <p>Instructions: ${recipeWithInstructions.instructions}</p>
                               </div>`;
                           resultsDiv.innerHTML = html;

@@ -1,18 +1,58 @@
 /* CSS by Leilah Hodges */
 
-/* results stuff */
+/* recipe reveal css */
+
 .recipe {
-  border: 1px solid #ccc;
+  background-color: #ffc5dd;
+  border-radius: 15px;
+  border: solid 10px #ff81b5;
   padding: 10px;
   margin: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .recipe img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 15px;
+}
+
+.recipe h3 {
+  /* background-color: #ff81b5; */
+  color: #F10102;
+  border: solid 5px #F10102;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.recipe h3 {
+  background-color: #f10149bf;
+  color: #ffc5dd;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.recipe h5 {
+  color: #F10102;
+  text-align: center;
+}
+
+.recipe p {
+  color: #20531c;
+}
+
+ol {
+  margin: 50px;
+  background-color: #ffdfec;
+  color: #a20106;
+  text-align: left;
+  line-height: 1.5;
+  border: solid 5px #a20106;
+  border-radius: 15px;
+  padding: 80px;
 }
 
 /* body stuff */
@@ -49,6 +89,31 @@ h2 {
   border-radius: 15px;
   color: #20531C;
   font-size: 30px;
+  padding:10px;
+  margin-left: 35px;
+  margin-right: 35px;
+
+}
+
+p {
+  color:#e10324;
+  font-size:25px;
+}
+
+.grouping p {
+  color:#EFE04B;
+  font-size:25px;
+}
+
+h3 {
+  background-color: #EEB1DD;
+  border: solid 2px #EEB1DD;
+  border-radius: 15px;
+  color: #20531C;
+  font-size: 25px;
+  margin-left:100px;
+  margin-right:100px;
+  padding:10px;
 }
 
 label {
@@ -58,7 +123,7 @@ label {
 input {
   border-radius: 15px;
   background-color:#EEB1DD;
-  border: solid 3px #FE6000;
+  border: solid 3px #e10324;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }

@@ -20,7 +20,7 @@ function searchRecipes() {
           console.log('API Response:', data);
 
           const recipes = data.results;
-          const resultsDiv = document.getElementById('results');
+          const resultsDiv = document.getElementById('recipeResults');
 
           if (recipes && recipes.length > 0) {
               // Use Promise.all to fetch details for all recipes
@@ -43,8 +43,9 @@ function searchRecipes() {
                           const html = `
                               <div class="recipe">
                                   <h3>${recipeWithInstructions.title}</h3>
-                                  <h5>"Yes,Chef!"</h5>
-                                  <p>Instructions: ${recipeWithInstructions.instructions}</p>
+                                  <h5>- "Yes, Chef!" -</h5>
+                                  <h4>Instructions:</h4>
+                                  <p>${recipeWithInstructions.instructions}</p>
                               </div>`;
                           resultsDiv.innerHTML = html;
                       } else {
@@ -61,8 +62,8 @@ function searchRecipes() {
       })
       .catch(error => {
           console.error('Error fetching data:', error);
-          document.getElementById('results').innerHTML = 'Error fetching data';
-      });
+          document.getElementById('recipeResults').innerHTML = 'Error fetching data';
+        });
 }
 
 

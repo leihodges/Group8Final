@@ -8,6 +8,7 @@
   border: solid 10px #ff81b5;
   padding: 10px;
   margin: 10px;
+  border: solid 2px #592026;
 }
 
 .recipe img {
@@ -17,42 +18,59 @@
 }
 
 .recipe h3 {
-  /* background-color: #ff81b5; */
-  color: #F10102;
-  border: solid 5px #F10102;
-  padding: 10px;
-  border-radius: 10px;
-  margin-left: 35px;
-  margin-right: 35px;
-}
-
-.recipe h3 {
-  background-color: #f10149bf;
+  background-color: #CE2D2F;
   color: #ffc5dd;
   padding: 10px;
   border-radius: 15px;
+  border: #ffc5dd;
   margin-left: 35px;
   margin-right: 35px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.recipe h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  color: #592026;
+  margin-bottom: 15px;
+  margin-top: 25px;
 }
 
 .recipe h5 {
-  color: #F10102;
+  color: #CE2D2F;
   text-align: center;
+  font-size: 25px;
+  background-color: E5B3DA;
+  border-radius: 10px;
+  margin: 1px 185px 3px;
 }
 
 .recipe p {
-  color: #20531c;
+  color: #ffc5dd;
+  margin: 10px 95px 5px 95px;
+  font-weight: 200;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 35px;
+  background-color: #592026;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 50px;
 }
 
 ol {
   margin: 50px;
-  background-color: #ffdfec;
-  color: #a20106;
+  background-color: #592026;
+  color: #E5B3DA;
   text-align: left;
-  line-height: 1.5;
-  border: solid 5px #a20106;
+  line-height: 2.0;
   border-radius: 15px;
-  padding: 80px;
+  padding: 60px;
+  padding-top: 30px;
 }
 
 /* body stuff */
@@ -176,6 +194,10 @@ input {
 }
 
 /* navigation */
+.navigation {
+  overflow: hidden;
+
+}
 
 #next {
   border-radius: 10px;
@@ -187,10 +209,12 @@ input {
   font-size: 30px;
   margin-bottom: 30px;
   cursor: pointer;
+  float: right;
+  margin-right: 130px;
 }
 
 button {
-  border-radius: 15px;
+  border-radius: 10px;
   background-color:#e10324;
   border: solid 3px #EEB1DD;
   color: #EEB1DD;

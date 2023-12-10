@@ -14,11 +14,16 @@
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<src="https://code.jquery.com/jquery-3.7.0.min.js"
+	integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+	crossorigin="anonymous"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/site.js" DEFER></script>
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
 </head>
 <body>
@@ -47,6 +52,63 @@
 					<button id="next">Ready to cook?</button>
 				</div>
 				</div>
+
+				<div id="recipeDiv" class="hidden">
+					<div class="header">
+						<h1>Cooking Club!</h1>
+						<p>Lets sort out some basic information so we can get sorted!</p>
+					</div>
+				
+					<div class="minor-section-background">
+						<div class="minor-section">
+							<h3>*Please fill out your order ticket below and press the button to get your recipe*</h3>
+							<div class="grouping">
+								<h2>What are you craving?</h2>
+								<p>("breakfast, lunch, dinner, dessert, pasta, etc.")</p>
+								<div class="soloDecal">
+									<img id="stickerOne" src="img/syrup.jpg" alt="pink bottle of syrup"><br>
+								</div>
+								<form id="recipeForm">
+									<label for="query">Query:</label>
+									<input type="text" id="query" name="query" required="">
+								</form>
+							</div>
+				
+							<div class="grouping">
+								<h2>Any dietary restrictions?</h2>
+								<div class="declas-section">
+									<img id="stickerTwoThree" src="img/bread.jpg" alt="pink loaf of bread"><br>
+								</div>
+								<label for="diet">Diet:</label>
+								<input type="text" id="diet" name="diet">
+								<br><br><label for="intolerances">Allergies:</label>
+								<input type="text" id="intolerances" name="intolerances">
+							</div>
+				
+							<div class="grouping">
+								<h2>How much time do you have (in minutes)?</h2>
+								<div class="declas-section">
+									<img id="stickerTwoThree" src="img/steak.jpg" alt="pink steak"><br>
+								</div>
+								<label for="maxReadyTime">Max Ready Time (minutes):</label>
+								<input type="number" id="maxReadyTime" name="maxReadyTime">
+							</div>
+				
+							<div class="navigation">
+								<button type="button" onclick="searchRecipes()">Generate Recipe</button>
+							</div>
+						  </div>
+						</div>
+				
+						<div class="minor-section-background">
+						  <div id="recipeResults"></div>
+						</div>
+				
+						<br>
+						<div class="navigation">
+							<button id="home">Home</button>
+						</div>
+					</div>
         </section>
 		</nav>	
 	</main>  

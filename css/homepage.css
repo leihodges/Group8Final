@@ -117,6 +117,11 @@
     margin-right:30px;
   }
 
+  .grouping p {
+    color: #EFE04B;
+    font-size: 15px;
+  }
+
   label {
     color: #EEB1DD;
     font-size: 20px;
